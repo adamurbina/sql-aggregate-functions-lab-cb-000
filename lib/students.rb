@@ -1,8 +1,8 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks.
 
 def highest_student_gpa
-    command = SELECT MAX(gpa) FROM students;
-    @sql_runner.execute_sql(command)
+    "SELECT MAX(gpa) FROM students;"
+    #@sql_runner.execute_sql(command)
 end
 
 def lowest_student_gpa
