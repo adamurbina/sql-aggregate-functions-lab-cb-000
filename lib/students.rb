@@ -2,7 +2,7 @@
 
 def highest_student_gpa
     command = "SELECT MAX(gpa) FROM students;"
-    @sql_runner.execute(command)
+    @sql_runner.(command)
 end
 
 def lowest_student_gpa
